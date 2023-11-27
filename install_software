@@ -8,3 +8,7 @@ conda env create -f /path/to/this/repo/software/conda_env.yaml
 conda activate imlabtools
 
 #now ready to run any software tool in the MetaXcan package
+
+#download and unpack sample data:
+wget https://zenodo.org/records/3691952/files/predixcan_sample_data.tar
+tar -xvpf predixcan_sample_data.tar
